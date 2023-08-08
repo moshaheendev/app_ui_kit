@@ -61,6 +61,7 @@ class AppTextField extends StatelessWidget {
       decoration: InputDecoration(
           hintStyle: TextStyle(color: hintColor ?? Colors.grey),
           hintText: label,
+          counter: const SizedBox.shrink(),
           enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.all(Radius.circular(borderRadius)),
               borderSide: BorderSide(color: borderColor ?? Colors.transparent)),
